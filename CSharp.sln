@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2_DataTypes", "P2_DataType
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3_UserInput", "P3_UserInput\P3_UserInput.csproj", "{11EC8343-56AF-4DE6-B3D7-F649509CF2ED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3_UserInput_Exercise", "P3_UserInput_Exercise\P3_UserInput_Exercise.csproj", "{62C72E7E-D9F0-48F0-B468-70A97169CCE5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{11EC8343-56AF-4DE6-B3D7-F649509CF2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11EC8343-56AF-4DE6-B3D7-F649509CF2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11EC8343-56AF-4DE6-B3D7-F649509CF2ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62C72E7E-D9F0-48F0-B468-70A97169CCE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C72E7E-D9F0-48F0-B468-70A97169CCE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C72E7E-D9F0-48F0-B468-70A97169CCE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C72E7E-D9F0-48F0-B468-70A97169CCE5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
