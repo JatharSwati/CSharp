@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3_UserInput_Exercise", "P3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P4_Operators", "P4_Operators\P4_Operators.csproj", "{80DBBE88-A4CC-45FB-8DAB-E459FA099DF8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P5_Math", "P5_Math\P5_Math.csproj", "{0F8A9211-C621-4043-96AD-169EB7388988}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{80DBBE88-A4CC-45FB-8DAB-E459FA099DF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80DBBE88-A4CC-45FB-8DAB-E459FA099DF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80DBBE88-A4CC-45FB-8DAB-E459FA099DF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F8A9211-C621-4043-96AD-169EB7388988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F8A9211-C621-4043-96AD-169EB7388988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F8A9211-C621-4043-96AD-169EB7388988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F8A9211-C621-4043-96AD-169EB7388988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
