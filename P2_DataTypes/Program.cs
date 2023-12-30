@@ -74,6 +74,79 @@ namespace P2_DataTypes
             // Stores a sequence of characters, surrounded by double quotes.
 
             string myName = "Swati";
+
+
+
+
+            // Type Casting:
+
+            // Type casting is when you assign a value of one data type to another type.
+            // In C#, there are two types of casting:
+
+
+            // 1) Implicit Casting (automatically)
+            //    Implicit casting is done automatically when passing a smaller size type to a larger size type.
+            //    char -> int -> long -> float -> double
+
+            Console.WriteLine("Implicit Casting:");
+
+            int myRollNo1 = 26;
+            double myRollNo2 = myRollNo1;               // Automatic casting: int to double
+
+            Console.WriteLine(myRollNo1);
+            Console.WriteLine(myRollNo2);
+
+
+            // 2. Explicit Casting (manually):
+            //    Explicit casting must be done manually by placing the type in parentheses in front of the value.
+            //    double -> float -> long -> int -> char
+            //    We can use type conversion methods for Explicit Casting.
+            //    Type Conversion Methods - Convert.ToBoolean, Convert.ToDouble, Convert.ToString, Convert.ToInt32 (for int) and Convert.ToInt64 (for long).
+
+            Console.WriteLine("\nExplicit Casting:");
+
+            double prise1 = 5.81;
+            int prise2 = (int)prise1;
+            int prise3 = Convert.ToInt32(prise1);        // Using Type Conversion Methods. (This round the number).
+
+            Console.WriteLine(prise1);
+            Console.WriteLine(prise2);
+            Console.WriteLine(prise3);
+
+
+            // More Examples for Explicit Casting:
+
+            Console.WriteLine("\nMore Examples for Explicit Casting:");
+
+            Console.WriteLine("\nConvert int to Boolean - ");
+            int mynum1 = 25;
+            bool mynum2 = Convert.ToBoolean(mynum1);            // convert int to Boolean
+            Console.WriteLine(mynum2);
+
+
+            Console.WriteLine("\nConvert double to string - ");
+            double myDouble = 7.45;
+            string s = Convert.ToString(myDouble);              // convert double to string
+            Console.WriteLine(s);
+
+
+            Console.WriteLine("\nConvert long to int - ");
+            long myLong = 150;
+            int i = Convert.ToInt32(myLong);                    // convert long to int
+            Console.WriteLine(i);
+
+
+            Console.WriteLine("\nConvert string to bool - ");
+            string myStirng = "True";
+            bool b = Convert.ToBoolean(myStirng);               // convert string to bool
+            Console.WriteLine(b);
+
+
+            Console.WriteLine("\nConvert long to string - ");
+            long myNum2 = 75;
+            string l = Convert.ToString(myNum2);                // convert long to string
+            Console.WriteLine(l);
+
         }
     }
 }
