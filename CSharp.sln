@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P1_Variables_Exercise", "P1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P2_DataTypes", "P2_DataTypes\P2_DataTypes.csproj", "{22282824-C872-486D-9B41-24E9F30EFEA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3_UserInput", "P3_UserInput\P3_UserInput.csproj", "{11EC8343-56AF-4DE6-B3D7-F649509CF2ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{22282824-C872-486D-9B41-24E9F30EFEA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22282824-C872-486D-9B41-24E9F30EFEA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22282824-C872-486D-9B41-24E9F30EFEA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11EC8343-56AF-4DE6-B3D7-F649509CF2ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11EC8343-56AF-4DE6-B3D7-F649509CF2ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11EC8343-56AF-4DE6-B3D7-F649509CF2ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11EC8343-56AF-4DE6-B3D7-F649509CF2ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
