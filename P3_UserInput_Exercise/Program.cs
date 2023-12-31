@@ -21,7 +21,7 @@ namespace P3_UserInput_Exercise
             Console.Write("\nEnter your last name : ");
             lastName = Console.ReadLine();
 
-            fullName = firstName  + " " + lastName;
+            fullName = $"{firstName} {lastName}";
 
             Console.Write("\nEnter your city name : ");
             cityName = Console.ReadLine();
@@ -52,16 +52,16 @@ namespace P3_UserInput_Exercise
             Console.ForegroundColor = ConsoleColor.Green;
 
             Console.WriteLine("\n\nMy Introduction ");
-            Console.Write("\nHello everyone, ");
-            Console.Write("I am " + fullName + ". ");
-            Console.Write("I am from " + cityName + ". ");
-            Console.Write("I have completed " + degreeName + " from " + collegeName + ". ");
+            Console.Write("\nHello everyone,");
+            Console.Write($" I am {fullName}.");
+            Console.Write($" I am from {cityName}.");
+            Console.Write($" I have completed {degreeName} from {collegeName}.");
             Console.WriteLine("\nI have CGPA in each year as follows,");
-            Console.WriteLine(" - First year CGPA is " + firstYearCGPA);
-            Console.WriteLine(" - Second year CGPA is " + secondYearCGPA);
-            Console.WriteLine(" - Third Year CGPA is " + thirdYearCGPA);
-            Console.WriteLine(" - Fourth year CGPA is " + fourthYearCGPA);
-            Console.WriteLine(" - My aggregate CGPA is " + aggregateCGPA);
+            Console.WriteLine($"- First year CGPA is {firstYearCGPA}");
+            Console.WriteLine($"- Second year CGPA is {secondYearCGPA}");
+            Console.WriteLine($"- Third Year CGPA is {thirdYearCGPA}");
+            Console.WriteLine($"- Fourth year CGPA is {fourthYearCGPA}");
+            Console.WriteLine($"- My aggregate CGPA is {aggregateCGPA}");
 
             Console.WriteLine();
 
