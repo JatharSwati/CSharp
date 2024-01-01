@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P7_IfElse_Exercise_Result",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P8_Switch", "P8_Switch\P8_Switch.csproj", "{87075445-1379-4816-98B5-C0DFB368975C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P8_Switch_Exercise_Marks", "P8_Switch_Exercise_Marks\P8_Switch_Exercise_Marks.csproj", "{EFB790D6-9D40-48AF-A41E-37D10E3BBD8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{87075445-1379-4816-98B5-C0DFB368975C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87075445-1379-4816-98B5-C0DFB368975C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87075445-1379-4816-98B5-C0DFB368975C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB790D6-9D40-48AF-A41E-37D10E3BBD8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB790D6-9D40-48AF-A41E-37D10E3BBD8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB790D6-9D40-48AF-A41E-37D10E3BBD8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB790D6-9D40-48AF-A41E-37D10E3BBD8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
