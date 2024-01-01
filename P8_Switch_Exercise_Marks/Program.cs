@@ -13,50 +13,39 @@ namespace P8_Switch_Exercise_Marks
 
             // Input
 
-            float marathi, english, physics, chemistry, mathematics, biology;
+            double marathiMarks = 96;
+            double englishMarks = 85;
+            double physicsMarks = 67;
+            double chemistryMarks = 75;
+            double mathematicsMarks = 55;
+            double biologyMarks = 67;
 
-            Console.WriteLine("Enter your subjects marks - ");
-
-            Console.Write("\nMarathi : ");
-            marathi = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("\nEnglish : ");
-            english = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("\nPhysics : ");
-            physics = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("\nChemistry : ");
-            chemistry = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("\nMathematics : ");
-            mathematics = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("\nBiology : ");
-            biology = Convert.ToInt32(Console.ReadLine());
+            string mySubject;
 
             // Output
 
-            float subject = 4;
-            switch(subject)
+            Console.Write($"Enter your subject : ");
+            mySubject = Console.ReadLine();
+
+            switch (mySubject)
             {
-                case 1:
-                    Console.WriteLine($"\nYour marathi marks is {marathi}.");
+                case "Marathi":
+                    Console.WriteLine($"\nYour marathi marks is {marathiMarks}.");
                     break;
-                case 2:
-                    Console.WriteLine($"\nYour english marks is {english}.");
+                case "English":
+                    Console.WriteLine($"\nYour english marks is {englishMarks}.");
                     break;
-                case 3:
-                    Console.WriteLine($"\nyour physics marks is {physics}.");
+                case "Physics":
+                    Console.WriteLine($"\nyour physics marks is {physicsMarks}.");
                     break;
-                case 4:
-                    Console.WriteLine($"\nYour chemistry marks is {chemistry}.");
+                case "Chemistry":
+                    Console.WriteLine($"\nYour chemistry marks is {chemistryMarks}.");
                     break;
-                case 5:
-                    Console.WriteLine($"\nYour mathematics marks is {mathematics}.");
+                case "Mathematics":
+                    Console.WriteLine($"\nYour mathematics marks is {mathematicsMarks}.");
                     break;
-                case 6:
-                    Console.WriteLine($"\nYour biology marks is {biology}.");
+                case "Biology":
+                    Console.WriteLine($"\nYour biology marks is {biologyMarks}.");
                     break;
             }
 
