@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P8_Switch", "P8_Switch\P8_S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P8_Switch_Exercise_Marks", "P8_Switch_Exercise_Marks\P8_Switch_Exercise_Marks.csproj", "{EFB790D6-9D40-48AF-A41E-37D10E3BBD8A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9_Loops", "P9_Loops\P9_Loops.csproj", "{D9C8AA6E-5841-4998-9186-7BBC746E5596}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{EFB790D6-9D40-48AF-A41E-37D10E3BBD8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFB790D6-9D40-48AF-A41E-37D10E3BBD8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFB790D6-9D40-48AF-A41E-37D10E3BBD8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9C8AA6E-5841-4998-9186-7BBC746E5596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9C8AA6E-5841-4998-9186-7BBC746E5596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9C8AA6E-5841-4998-9186-7BBC746E5596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9C8AA6E-5841-4998-9186-7BBC746E5596}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
