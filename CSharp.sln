@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9_Loops_Exercise_While_Sum
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9_Loops_Exercise_For_TableOfNumbers", "P9_Loops_Exercise_For_TableOfNumbers\P9_Loops_Exercise_For_TableOfNumbers.csproj", "{78EEC8C9-AF33-4D52-90A7-73F7935E2AFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9_Loops_Exercise_Foreach_CharactersOfName", "P9_Loops_Exercise_Foreach_CharactersOfName\P9_Loops_Exercise_Foreach_CharactersOfName.csproj", "{71F8B914-5FB6-4705-8C85-66DAC20B4E7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{78EEC8C9-AF33-4D52-90A7-73F7935E2AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78EEC8C9-AF33-4D52-90A7-73F7935E2AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78EEC8C9-AF33-4D52-90A7-73F7935E2AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F8B914-5FB6-4705-8C85-66DAC20B4E7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F8B914-5FB6-4705-8C85-66DAC20B4E7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F8B914-5FB6-4705-8C85-66DAC20B4E7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F8B914-5FB6-4705-8C85-66DAC20B4E7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
