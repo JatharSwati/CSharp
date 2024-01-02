@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9_Loops", "P9_Loops\P9_Loo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9_Loops_Exercise_While_SumOfNumbers", "P9_Loops_Exercise_While_SumOfNumbers\P9_Loops_Exercise_While_SumOfNumbers.csproj", "{32E1E0D0-EFAD-4711-9147-EDBC823CB5EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P9_Loops_Exercise_For_TableOfNumbers", "P9_Loops_Exercise_For_TableOfNumbers\P9_Loops_Exercise_For_TableOfNumbers.csproj", "{78EEC8C9-AF33-4D52-90A7-73F7935E2AFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{32E1E0D0-EFAD-4711-9147-EDBC823CB5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32E1E0D0-EFAD-4711-9147-EDBC823CB5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32E1E0D0-EFAD-4711-9147-EDBC823CB5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78EEC8C9-AF33-4D52-90A7-73F7935E2AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78EEC8C9-AF33-4D52-90A7-73F7935E2AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78EEC8C9-AF33-4D52-90A7-73F7935E2AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78EEC8C9-AF33-4D52-90A7-73F7935E2AFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
