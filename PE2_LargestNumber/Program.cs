@@ -23,14 +23,18 @@ namespace PE2_LargestNumber
 
 
             // Output
-
+            
             if (firstNumber > secondNumber)
             {
                 Console.WriteLine($"\n{firstNumber} is largest number.");
             }
             else if (secondNumber > firstNumber)
-                    {
+            {
                 Console.WriteLine($"\n{secondNumber} is largest number.");
+            }
+            else
+            {
+                Console.WriteLine("\nBoth numbers are equal.");
             }
 
             Console.WriteLine();
