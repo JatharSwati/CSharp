@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P10_Arrays_Exercise_Friends
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE1_IsNumberEvenOrOdd", "PE1_IsNumberEvenOrOdd\PE1_IsNumberEvenOrOdd.csproj", "{FB88F9D8-EEA8-4CB7-9268-6F033851CB9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE2_LargestNumber", "PE2_LargestNumber\PE2_LargestNumber.csproj", "{81991CB4-491E-44DB-AEC6-91696999465D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{FB88F9D8-EEA8-4CB7-9268-6F033851CB9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB88F9D8-EEA8-4CB7-9268-6F033851CB9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB88F9D8-EEA8-4CB7-9268-6F033851CB9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81991CB4-491E-44DB-AEC6-91696999465D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81991CB4-491E-44DB-AEC6-91696999465D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81991CB4-491E-44DB-AEC6-91696999465D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81991CB4-491E-44DB-AEC6-91696999465D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
