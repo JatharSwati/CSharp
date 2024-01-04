@@ -12,23 +12,21 @@ namespace PE1_IsNumberEvenOrOdd
         {
             // Input
 
-            int number1, number2;
+            int number;
 
             Console.Write("Enter your number : ");
-            number1 = Convert.ToInt32(Console.ReadLine());
-
-            number2 = number1 % 2;
+            number = Convert.ToInt32(Console.ReadLine());
 
 
             // Output
 
-            if (number2 % 2 == 0)
+            if (number % 2 == 0)
             {
-                Console.WriteLine($"\n{number1} is an even number.");
+                Console.WriteLine($"\n{number} is an even number.");
             }
             else
             {
-                Console.WriteLine($"\n{number1} is an odd number.");    
+                Console.WriteLine($"\n{number} is an odd number.");    
             }
 
             Console.WriteLine();
