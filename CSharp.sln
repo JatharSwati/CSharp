@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE5_ReverseTheNumber", "PE5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE7_SumOfDigits", "PE7_SumOfDigits\PE7_SumOfDigits.csproj", "{4D0C3BD4-F5B2-4D76-928D-F0B51627D578}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE8_PalindromeNumber", "PE8_PalindromeNumber\PE8_PalindromeNumber.csproj", "{4AA427F2-EF4D-4D15-8ACA-5476771E38DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{4D0C3BD4-F5B2-4D76-928D-F0B51627D578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D0C3BD4-F5B2-4D76-928D-F0B51627D578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D0C3BD4-F5B2-4D76-928D-F0B51627D578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AA427F2-EF4D-4D15-8ACA-5476771E38DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AA427F2-EF4D-4D15-8ACA-5476771E38DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AA427F2-EF4D-4D15-8ACA-5476771E38DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AA427F2-EF4D-4D15-8ACA-5476771E38DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
