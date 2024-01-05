@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE4_FactorialOfNumber", "PE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE5_ReverseTheNumber", "PE5_ReverseTheNumber\PE5_ReverseTheNumber.csproj", "{57396063-CE5D-48F1-9425-0A7E800A9700}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE7_SumOfDigits", "PE7_SumOfDigits\PE7_SumOfDigits.csproj", "{4D0C3BD4-F5B2-4D76-928D-F0B51627D578}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{57396063-CE5D-48F1-9425-0A7E800A9700}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57396063-CE5D-48F1-9425-0A7E800A9700}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57396063-CE5D-48F1-9425-0A7E800A9700}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0C3BD4-F5B2-4D76-928D-F0B51627D578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0C3BD4-F5B2-4D76-928D-F0B51627D578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0C3BD4-F5B2-4D76-928D-F0B51627D578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0C3BD4-F5B2-4D76-928D-F0B51627D578}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
