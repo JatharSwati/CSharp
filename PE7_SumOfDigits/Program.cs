@@ -12,14 +12,14 @@ namespace PE7_SumOfDigits
         {
             // Input
 
-            int number, sum, reminder, quotient;
+            int number, sum, reminder, numberForOutput;
 
             Console.Write("Enter your number : ");
             number = Convert.ToInt32(Console.ReadLine());
 
             sum = 0;
 
-            quotient = number;
+            numberForOutput = number;
 
 
             // Output
@@ -31,7 +31,7 @@ namespace PE7_SumOfDigits
                 sum = sum + reminder;
             }
 
-            Console.WriteLine($"\nSum of the digits of {quotient} is {sum}.");
+            Console.WriteLine($"\nSum of the digits of {numberForOutput} is {sum}.");
 
             Console.WriteLine();
 
