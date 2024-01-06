@@ -13,13 +13,13 @@ namespace PE8_PalindromeNumber
 
             // Input
 
-            int number, reminder, sum, palindromeNumber;
+            int number, reminder, reverseNumber, initialNumber;
 
             Console.Write("Enter your number : ");
             number = Convert.ToInt32(Console.ReadLine());
 
-            sum = 0;
-            palindromeNumber = number;
+            reverseNumber = 0;
+            initialNumber = number;
 
 
             // Output
@@ -28,19 +28,17 @@ namespace PE8_PalindromeNumber
             {
                 reminder = number % 10;
                 number = number / 10;
-                sum = (sum * 10) + reminder;
+                reverseNumber = (reverseNumber * 10) + reminder;
             }
 
-            if (palindromeNumber == sum)
+            if (initialNumber == reverseNumber)
             {
-                Console.Write($"\n{sum} is Palindrome Number.");
+                Console.WriteLine($"\n{initialNumber} is Palindrome Number.\n");
             }
             else
             {
-                Console.WriteLine($"\n{sum} is not Palindrome Number.");
+                Console.WriteLine($"\n{initialNumber} is not Palindrome Number.\n");
             }
-
-            Console.WriteLine();
 
         }
     }
