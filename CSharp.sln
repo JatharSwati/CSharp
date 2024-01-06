@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE8_PalindromeNumber", "PE8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE6_NumberInCharacters", "PE6_NumberInCharacters\PE6_NumberInCharacters.csproj", "{BA37E292-B2D3-40A2-82DB-9ABE2EDF2535}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE9_NumberTriangle", "PE9_NumberTriangle\PE9_NumberTriangle.csproj", "{FA20FEC0-D916-425E-A3A8-99C291F8CEEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{BA37E292-B2D3-40A2-82DB-9ABE2EDF2535}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA37E292-B2D3-40A2-82DB-9ABE2EDF2535}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA37E292-B2D3-40A2-82DB-9ABE2EDF2535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA20FEC0-D916-425E-A3A8-99C291F8CEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA20FEC0-D916-425E-A3A8-99C291F8CEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA20FEC0-D916-425E-A3A8-99C291F8CEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA20FEC0-D916-425E-A3A8-99C291F8CEEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
