@@ -14,9 +14,10 @@ namespace PE6_NumberInCharacters
             // Input
 
             int number, reverseNumber = 0, reminder;
+            string[] numberText = { "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Zero" };
 
             Console.Write("Enter your number : ");
-            number = int.Parse(Console.ReadLine());
+            number = Convert.ToInt32(Console.ReadLine());
 
 
             // Output
@@ -29,50 +30,19 @@ namespace PE6_NumberInCharacters
                 number = number / 10;
                 reverseNumber = reverseNumber * 10 + reminder;
             }
+
             number = reverseNumber;
+
             while (number > 0)
             {
+
                 reminder = number % 10;
-                switch (reminder)
-                {
-                    case 1:
-                        Console.Write("one ");
-                        break;
-                    case 2:
-                        Console.Write("two ");
-                        break;
-                    case 3:
-                        Console.Write("three ");
-                        break;
-                    case 4:
-                        Console.Write("four ");
-                        break;
-                    case 5:
-                        Console.Write("five ");
-                        break;
-                    case 6:
-                        Console.Write("six ");
-                        break;
-                    case 7:
-                        Console.Write("seven ");
-                        break;
-                    case 8:
-                        Console.Write("eight ");
-                        break;
-                    case 9:
-                        Console.Write("nine ");
-                        break;
-                    case 0:
-                        Console.Write("zero ");
-                        break;
-                    default:
-                        Console.Write("tttt ");
-                        break;
-                }                                       //end of switch      
+
+                Console.Write($"{numberText[reminder - 1]} ");
 
                 number = number / 10;
 
-            }                                           //end of while loop       
+            }                                             
 
             Console.WriteLine("\n");
 
