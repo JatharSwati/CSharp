@@ -23,18 +23,24 @@ namespace PE9_NumberTriangle
 
             for (i = 1; i <= n; i++)
             {
+                // For space
                 for (j = 1; j <= n - i; j++)
                 {
                     Console.Write(" ");
                 }
+
+                // For Level to middle
                 for (k = 1; k <= i; k++)
                 {
                     Console.Write(k);
                 }
+
+                // For reverse number from middle. 
                 for (l = i - 1; l >= 1; l--)
                 {
                     Console.Write(l);
                 }
+
                 Console.Write("\n");
             }
 
