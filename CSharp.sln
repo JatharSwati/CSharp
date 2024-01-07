@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE9_NumberTriangle", "PE9_N
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PE10_StarTriangle", "PE10_StarTriangle\PE10_StarTriangle.csproj", "{F3BC51BA-4184-419C-9267-11DC3E228E6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_Methods", "P11_Methods\P11_Methods.csproj", "{0AC4F2B0-146E-4BE8-B781-0C21DC6EDA8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -177,6 +179,10 @@ Global
 		{F3BC51BA-4184-419C-9267-11DC3E228E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3BC51BA-4184-419C-9267-11DC3E228E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3BC51BA-4184-419C-9267-11DC3E228E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AC4F2B0-146E-4BE8-B781-0C21DC6EDA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AC4F2B0-146E-4BE8-B781-0C21DC6EDA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AC4F2B0-146E-4BE8-B781-0C21DC6EDA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AC4F2B0-146E-4BE8-B781-0C21DC6EDA8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
