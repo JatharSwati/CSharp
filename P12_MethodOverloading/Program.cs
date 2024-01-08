@@ -9,22 +9,16 @@ namespace P12_MethodOverloading
     class Program
     {
         static void Main(string[] args)
-        {            
-            Intro("Swati", "Jathar", 22);          // Method
-            Console.WriteLine($"My percentage are {CalculatePercentage(80, 70, 90, 60)}.");    // Function
-
-            Console.WriteLine();
-
-
+        {        
             // Method overloading - Intro
 
             Intro("Swati", "Jathar", 22); 
 
-            Intro("Swati J", 22);               // Method overload - Rule 1 - Change the number of parameter.
+            Intro("Pradip Jathar", 24);               // Method overload - Rule 1 - Change the number of parameter.
 
-            Intro(22, "Swati J");               // Method overload - Rule 2 - Change the position of parameter.
+            Intro(27, "Pravin Gunjal");               // Method overload - Rule 2 - Change the position of parameter.
 
-            Intro(22.5, "Swati J");             // Method overload - Rule 3 - Change the datatype of parameter. --> (if you required same position).
+            Intro(23.5, "Shubhangi Gunjal");          // Method overload - Rule 3 - Change the datatype of parameter. --> (if you required same position).
         }
 
 
@@ -67,16 +61,5 @@ namespace P12_MethodOverloading
             Console.WriteLine($"My age is {age}.\n");
         }
 
-
-        // Function (Method with return value)
-
-        static double CalculatePercentage(int phyMarks, int chemMarks, int mathMarks, int bioMarks)
-        {
-            int totalMarks = phyMarks + chemMarks + mathMarks + bioMarks;
-
-            double percentage = totalMarks / 4;
-
-            return percentage;
-        }
     }
 }
