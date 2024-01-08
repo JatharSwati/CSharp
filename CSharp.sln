@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_Methods", "P11_Methods\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P11_Methods_Exercise_IntroductionUsingMethodAndFunction", "P11_Methods_Exercise_IntroductionUsingMethodAndFunction\P11_Methods_Exercise_IntroductionUsingMethodAndFunction.csproj", "{84BA0E91-3B58-4F9F-9F68-06CF77525D60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12_MethodOverloading", "P12_MethodOverloading\P12_MethodOverloading.csproj", "{293DF04D-850E-40B5-9E60-13E90AF6935B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{84BA0E91-3B58-4F9F-9F68-06CF77525D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84BA0E91-3B58-4F9F-9F68-06CF77525D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84BA0E91-3B58-4F9F-9F68-06CF77525D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293DF04D-850E-40B5-9E60-13E90AF6935B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293DF04D-850E-40B5-9E60-13E90AF6935B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293DF04D-850E-40B5-9E60-13E90AF6935B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293DF04D-850E-40B5-9E60-13E90AF6935B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
