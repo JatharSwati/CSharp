@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P12_MethodOverloading_Exerc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13_ClassesAndObjects", "P13_ClassesAndObjects\P13_ClassesAndObjects.csproj", "{1277193E-3CE8-41CE-A8D7-92FC4E96C280}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13_ClassAndObject_Exercise_StudentClass", "P13_ClassAndObject_Exercise_StudentClass\P13_ClassAndObject_Exercise_StudentClass.csproj", "{107CE226-A087-45FD-B5C6-AECFECE8AFE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{1277193E-3CE8-41CE-A8D7-92FC4E96C280}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1277193E-3CE8-41CE-A8D7-92FC4E96C280}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1277193E-3CE8-41CE-A8D7-92FC4E96C280}.Release|Any CPU.Build.0 = Release|Any CPU
+		{107CE226-A087-45FD-B5C6-AECFECE8AFE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{107CE226-A087-45FD-B5C6-AECFECE8AFE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{107CE226-A087-45FD-B5C6-AECFECE8AFE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{107CE226-A087-45FD-B5C6-AECFECE8AFE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
