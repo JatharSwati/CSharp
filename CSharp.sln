@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P13_ClassAndObject_Exercise
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P14_Constructors", "P14_Constructors\P14_Constructors.csproj", "{872B987B-6B8E-406D-A89A-8124A2B950BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P15_AccessModifiers", "P15_AccessModifiers\P15_AccessModifiers.csproj", "{5E60A387-ABF7-4BF3-8FFF-90A7FC2E0CED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{872B987B-6B8E-406D-A89A-8124A2B950BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{872B987B-6B8E-406D-A89A-8124A2B950BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{872B987B-6B8E-406D-A89A-8124A2B950BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E60A387-ABF7-4BF3-8FFF-90A7FC2E0CED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E60A387-ABF7-4BF3-8FFF-90A7FC2E0CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E60A387-ABF7-4BF3-8FFF-90A7FC2E0CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E60A387-ABF7-4BF3-8FFF-90A7FC2E0CED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
