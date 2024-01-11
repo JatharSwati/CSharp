@@ -23,7 +23,7 @@ namespace P17_PropertiesAndEncapsulation
             Employee employee = new Employee();
             employee.FirstName = "Swati";
             employee.LastName = "Jathar";
-            // employee.FullName = "Swati Jathar";          // FullName has only get method, so it is read-only Property. You can not set value to FullName.
+            // employee.FullName = "Swati Jathar";           // FullName has only get method, so it is read-only Property. You can not set value to FullName.
             employee.Age = 22;
             // employee.salary = 30000.40;                   // You can not access the private variable salary in other class.
             employee.Salary = 30000.45;                      // To get or set value to private variable salary, use Salary Property.
@@ -32,7 +32,7 @@ namespace P17_PropertiesAndEncapsulation
             Console.WriteLine($"My first name is {employee.FirstName} and last name is {employee.LastName}.");
             Console.WriteLine($"My full name is {employee.FullName}.");                                          // FullName has only get method, so it is read-only Property. So you can only access its value.
             // Console.WriteLine($"My age is {employee.Age}.");                                                  // Age has only set method, so it is write-only Property. You can not get value to Age.
-            //Console.WriteLine($"My salary is {employee.salary}.");                                             // You can not access the private variable salary in other class.                   
+            // Console.WriteLine($"My salary is {employee.salary}.");                                            // You can not access the private variable salary in other class.                   
             Console.WriteLine($"My salary is {employee.Salary}.");                                               // To get or set value to private variable salary, use Salary Property.
         }
     }
@@ -63,7 +63,7 @@ namespace P17_PropertiesAndEncapsulation
             }
         }
 
-        public int Age { set { } }                                                      // write-only (if you only use the set method)
+        public int Age { set { } }                               // write-only (if you only use the set method)
     }
 
 
