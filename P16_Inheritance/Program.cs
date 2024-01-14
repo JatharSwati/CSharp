@@ -17,18 +17,18 @@ namespace P16_Inheritance
     {
         static void Main(string[] args)
         {
-            Flowers mogra = new Flowers();
-            mogra.name = "Rose";
-            mogra.color = "Pink";
-            mogra.shape = "open-cupped";
-            mogra.GetFlowerInfo();
+            Flowers rose = new Flowers();
+            rose.name = "Rose";
+            rose.color = "Pink";
+            rose.shape = "open-cupped";
+            rose.GetFlowerInfo();
 
-            FragranceFlowers rose = new FragranceFlowers();
-            rose.name = "Mogra";
-            rose.color = "White";
-            rose.shape = "star-shaped";
-            rose.fragrance = "Calm";
-            rose.GetFragrance();
+            FragranceFlowers mogra = new FragranceFlowers();
+            mogra.name = "Mogra";
+            mogra.color = "White";
+            mogra.shape = "star-shaped";
+            mogra.fragrance = "Calm";
+            mogra.GetFragrance();
             mogra.GetFlowerInfo();                             // We can access the members of parent class in child class.
         }
     }
